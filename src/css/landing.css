@@ -252,6 +252,7 @@ a.company_link {
   border-color: #ffffff45;
   box-shadow: -8px 8px 10px #a6d5c130;
   transition: 0.5s ease-in-out;
+  padding-left: 2em;
 }
 
 .social_icon {

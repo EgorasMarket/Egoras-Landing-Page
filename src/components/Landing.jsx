@@ -63,7 +63,7 @@ const Landing = () => {
               </a>
               <div className="nav_link2">
                 <a href="#" className="nav_link2a products">
-                  Products
+                  Tokens
                   <img
                     src="/img/arrow-down-icon.svg"
                     alt=""
@@ -71,7 +71,7 @@ const Landing = () => {
                   />
                 </a>
                 <div className="hover_drop_down">
-                  <a
+                  {/* <a
                     href="https://physical.egoras.com/egr-token"
                     className="company_link"
                   >
@@ -81,7 +81,7 @@ const Landing = () => {
                       className="iconss"
                     />{" "}
                     EGR-Token
-                  </a>
+                  </a> */}
                   <a
                     href="https://physical.egoras.com/egc-token"
                     className="company_link"
@@ -149,7 +149,7 @@ const Landing = () => {
                       }
                       onClick={closePanel}
                     >
-                      Products
+                      Tokens
                     </p>
                     <div
                       className={
@@ -158,7 +158,7 @@ const Landing = () => {
                           : "accordion_inner_div"
                       }
                     >
-                      <a
+                      {/* <a
                         href="https://physical.egoras.com/egr-token"
                         className="company_link"
                       >
@@ -168,7 +168,7 @@ const Landing = () => {
                           className="iconss"
                         />{" "}
                         EGR-Token
-                      </a>
+                      </a> */}
                       <a
                         href="https://physical.egoras.com/egc-token"
                         className="company_link"

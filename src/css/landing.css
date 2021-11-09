@@ -8,7 +8,7 @@
 
 .landing_body {
   padding: 10em 0em;
-  padding-top: 2em;
+  padding-top: 1em;
   position: relative;
   padding-bottom: 0;
 }
@@ -22,8 +22,8 @@
 }
 
 .arrow_down_icon {
-  width: 14px;
-  margin-left: 5px;
+  width: 10px;
+  margin-left: 3px;
   transition: 0.5s ease-in-out;
 }
 .products:hover .arrow_down_icon {
@@ -34,16 +34,16 @@
   padding: 0em 0em;
 }
 .landing_section_txts {
-  padding: 4em 4em;
-  padding-top: 4em;
+  padding: 1em 4em;
+  padding-top: 2em;
   background: #ffffff57;
-  height: 560px;
+  height: 55vh;
   border-radius: 10px;
   border: solid;
   border-color: #ffffff40;
   text-align: center;
   display: flex;
-  grid-row-gap: 35px;
+  grid-row-gap: 5%;
   flex-direction: column;
 }
 
@@ -51,12 +51,15 @@
   font-size: 60px;
   font-weight: 800;
   line-height: 65px;
+  height: 30%;
+  margin-bottom: 30px;
 }
 
 .tokens_icons {
-  width: 60%;
+  width: 100%;
   place-self: center;
   opacity: 0.6;
+  height: 10%;
 }
 .landing_txt2 {
   font-size: 20px;
@@ -69,6 +72,7 @@
   width: 100%;
   justify-content: center;
   margin-top: 20px;
+  height: 5%;
 }
 
 .landing_btn1 {
@@ -81,6 +85,7 @@
   /* font-size: 25px; */
   font-weight: 700;
   transition: 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .linked_in_link {
@@ -104,6 +109,7 @@
   transform: translate3d(0, -5px, 0);
   box-shadow: 0 4px 10px #d5d5d5;
   transition: 0.3s ease-in-out;
+  color: #fff;
 }
 
 .landing_btn2 {
@@ -116,6 +122,7 @@
   background-color: #fff;
   font-weight: 700;
   transition: 0.3s ease-in-out;
+  text-decoration: none;
 }
 .landing_btn2:hover {
   color: #fff;
@@ -129,14 +136,18 @@
   transition: 0.3s ease-in-out;
 }
 
+.header_section {
+  height: 10vh;
+}
+
 .header-area {
-  padding: 1em 4em;
+  padding: 0.5em 1em;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 .header_logo {
-  width: 200px;
+  width: 150px;
 }
 
 .open_drop_icon {
@@ -152,7 +163,7 @@
 
 .hover_drop_down {
   position: absolute;
-  top: 27px;
+  top: 17px;
   display: flex;
   flex-direction: column;
   grid-row-gap: 10px;
@@ -160,7 +171,7 @@
   padding: 2em;
   width: 211px;
   border-radius: 10px;
-  right: 109px;
+  right: 92px;
   z-index: 100;
   box-shadow: 0px 0px 20px #bbbbbb40;
   display: none;
@@ -179,7 +190,7 @@ a.company_link {
 }
 .nav_link2a {
   text-decoration: none;
-  font-size: 18px;
+  font-size: 14px;
   color: black;
   font-weight: 700;
   margin-left: 40px;
@@ -257,9 +268,10 @@ a.company_link {
   transition: 0.3s ease-in-out;
 }
 .gtpartnersSection {
-  padding: 2em 0em;
+  padding: 1em 0em;
   position: relative;
   overflow: hidden;
+  height: 20vh;
 }
 
 .gtPartnersArea {
@@ -315,7 +327,7 @@ a.company_link {
 
 .gtpartnerLogos {
   text-align: center;
-  width: 200px;
+  width: 125px;
   filter: grayscale();
 }
 .gtpartnerLogos:hover {
@@ -364,6 +376,10 @@ a.company_link {
 }
 img.close_drop_icon {
   width: 30 px;
+}
+
+.footer_area {
+  height: 20vh;
 }
 
 .not_mobile_menu {

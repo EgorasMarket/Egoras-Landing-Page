@@ -180,9 +180,15 @@ const Landing = () => {
                   alt=""
                   className="tokens_icons"
                 />
+
+                
                 <div className="landing_buttons">
-                  <button className="landing_btn1">Physical Assets</button>
-                  <button className="landing_btn2">Crypto Assets</button>
+                  <a href="physical.egoras.com" className="landing_btn1">
+                    Physical Assets
+                  </a>
+                  <a href="crypto.egoras.com" className="landing_btn2">
+                    Crypto Assets
+                  </a>
                 </div>
               </div>
             </div>
@@ -399,7 +405,10 @@ const Landing = () => {
             <FacebookOutlinedIcon className="social_icon" />
           </a>
 
-          <a href="https://web.facebook.com/egorasmarket/" className="linked_in_link">
+          <a
+            href="https://web.facebook.com/egorasmarket/"
+            className="linked_in_link"
+          >
             <img src="/img/linkedin_icon.svg" alt="" className=" linked_in" />
           </a>
         </div>

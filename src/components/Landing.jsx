@@ -71,19 +71,40 @@ const Landing = () => {
                   />
                 </a>
                 <div className="hover_drop_down">
-                  <a href="" className="company_link">
-                    <BusinessIcon className="iconss" /> Company
+                  <a
+                    href="https://physical.egoras.com/egr-token"
+                    className="company_link"
+                  >
+                    <img
+                      src="/img/egoras-favicon.svg"
+                      alt=""
+                      className="iconss"
+                    />{" "}
+                    EGR-Token
                   </a>
-                  <a href="" className="company_link">
-                    <DescriptionIcon className="iconss" />
-                    White Paper
+                  <a
+                    href="https://physical.egoras.com/egc-token"
+                    className="company_link"
+                  >
+                    <img src="/img/EGC-LOGO.svg" alt="" className="iconss" />
+                    EGC-Token
                   </a>
-                  <a href="" className="company_link">
-                    <PrivacyTipIcon className="iconss" />
-                    Privacy
+                  <a
+                    href="https://physical.egoras.com/eusd-token"
+                    className="company_link"
+                  >
+                    <img
+                      src="/img/eusd-icon-dollar.svg"
+                      alt=""
+                      className="iconss"
+                    />
+                    EUSD-Token
                   </a>
                 </div>
-                <a href="https://egoras.com/about" className="nav_link2a">
+                <a
+                  href="https://physical.egoras.com/about"
+                  className="nav_link2a"
+                >
                   About Us
                 </a>
               </div>
@@ -137,19 +158,46 @@ const Landing = () => {
                           : "accordion_inner_div"
                       }
                     >
-                      <a href="#" className="accordion_inner_links">
-                        Company
+                      <a
+                        href="https://physical.egoras.com/egr-token"
+                        className="company_link"
+                      >
+                        <img
+                          src="/img/egoras-favicon.svg"
+                          alt=""
+                          className="iconss"
+                        />{" "}
+                        EGR-Token
                       </a>
-                      <a href="#" className="accordion_inner_links">
-                        White-Paper
+                      <a
+                        href="https://physical.egoras.com/egc-token"
+                        className="company_link"
+                      >
+                        <img
+                          src="/img/EGC-LOGO.svg"
+                          alt=""
+                          className="iconss"
+                        />
+                        EGC-Token
                       </a>
-                      <a href="#" className="accordion_inner_links">
-                        Privacy
+                      <a
+                        href="https://physical.egoras.com/eusd-token"
+                        className="company_link"
+                      >
+                        <img
+                          src="/img/eusd-icon-dollar.svg"
+                          alt=""
+                          className="iconss mr"
+                        />
+                        EUSD-Token
                       </a>
                     </div>
                   </div>
                   <hr style={{ width: "100%" }} className="hr" />
-                  <a href="https://egoras.com/about" className="nav_link2a">
+                  <a
+                    href="https://physical.egoras.com/about"
+                    className="nav_link2a"
+                  >
                     About Us
                   </a>
                 </div>

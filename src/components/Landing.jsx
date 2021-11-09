@@ -181,12 +181,14 @@ const Landing = () => {
                   className="tokens_icons"
                 />
 
-                
                 <div className="landing_buttons">
-                  <a href="physical.egoras.com" className="landing_btn1">
+                  <a
+                    href="https://physical.egoras.com/"
+                    className="landing_btn1"
+                  >
                     Physical Assets
                   </a>
-                  <a href="crypto.egoras.com" className="landing_btn2">
+                  <a href="https://crypto.egoras.com/" className="landing_btn2">
                     Crypto Assets
                   </a>
                 </div>

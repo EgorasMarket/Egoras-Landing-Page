@@ -495,7 +495,7 @@ a.accordion_inner_links {
     font-size: 18px;
   }
   .landing_section_txts {
-    padding-top: 5em;
+    padding-top: 0em;
   }
   .landing_txt1 {
     font-size: 40px;
@@ -552,7 +552,7 @@ a.accordion_inner_links {
   }
   .landing_txt1 {
     font-size: 100%;
-    line-height: 22px;
+    line-height: 35px;
   }
   .landing_section_txts {
     height: 60vh;
@@ -561,7 +561,7 @@ a.accordion_inner_links {
 
   .landing_txt1 {
     height: 10%;
-    font-size: 100%;
+    font-size: 180%;
     /* width: 20%; */
   }
 
@@ -579,7 +579,8 @@ a.accordion_inner_links {
 
   .gtpartnersSection {
     padding: 0em 0em;
-    height: 15vh;
+    padding-top: 2em;
+    height: 20vh;
   }
 
   .gthowItWorksTitle {
@@ -628,6 +629,11 @@ a.accordion_inner_links {
   /* .landing_section_txts {
     padding-top: 1em;
   } */
+  .landing_txt1 {
+    height: 10%;
+    font-size: 150%;
+    /* width: 20%; */
+  }
 }
 @media screen and (max-width: 329px) {
   .landing_txt2 {

@@ -139,7 +139,7 @@ const Landing = () => {
                       }
                       onClick={openPanel}
                     >
-                      Products
+                      Tokens
                     </p>
                     <p
                       className={
@@ -448,7 +448,7 @@ const Landing = () => {
           <a href="https://twitter.com/egorasmarket">
             <TwitterIcon className="social_icon" />
           </a>
-          <a href="#">
+          <a href="https://t.me/egorasmarket">
             <TelegramIcon className="social_icon" />
           </a>
           <a href="https://web.facebook.com/egorasmarket/">
@@ -456,7 +456,7 @@ const Landing = () => {
           </a>
 
           <a
-            href="https://web.facebook.com/egorasmarket/"
+            href="https://www.linkedin.com/company/egorasmarket/"
             className="linked_in_link"
           >
             <img src="/img/linkedin_icon.svg" alt="" className=" linked_in" />

@@ -354,7 +354,7 @@ a.company_link {
 .mobile_menu {
   position: fixed;
   right: 0;
-  width: 100%;
+  width: 55%;
   top: 0;
   height: 100vh;
   padding: 1em 1em;
@@ -365,8 +365,20 @@ a.company_link {
   align-items: flex-end;
   backdrop-filter: blur(13px);
   background: #ffffff8f;
+  border-left: solid;
+  border-color: #ffffffb0;
+  box-shadow: -2px -2px 20px lightgrey;
+  animation: leftGrow 0.5s linear;
 }
 
+@keyframes leftGrow {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 55%;
+  }
+}
 .mr {
   margin-right: 2px;
 }
@@ -567,7 +579,7 @@ a.accordion_inner_links {
 
   .landing_txt1 {
     height: 10%;
-    font-size: 180%;
+    font-size: 190%;
     /* width: 20%; */
   }
 
@@ -637,7 +649,7 @@ a.accordion_inner_links {
   } */
   .landing_txt1 {
     height: 10%;
-    font-size: 150%;
+    font-size: 180%;
     /* width: 20%; */
   }
 }
@@ -645,6 +657,12 @@ a.accordion_inner_links {
   .landing_txt2 {
     font-size: 14px;
     line-height: 20px;
+  }
+
+  .landing_txt1 {
+    height: 10%;
+    font-size: 150%;
+    /* width: 20%; */
   }
   /* .landing_section_txts {
     padding-top: 3em;

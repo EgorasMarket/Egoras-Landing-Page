@@ -108,7 +108,7 @@ const Landing = () => {
                   About Us
                 </a>
               </div>
-
+              {/* mobile menu */}
               <img
                 src="/img/open_drop.svg"
                 alt=""
@@ -482,6 +482,12 @@ const Landing = () => {
         </div>
         <img src="/img/big_blur1.png" alt="" className="big_blur" />
       </section>
+      <a href="https://earn.egoras.com" className="earn_link" target="_blank">
+        <button className="earn_btn">
+          {" "}
+          <p className="refff">Referral program</p>
+        </button>
+      </a>
     </div>
   );
 };

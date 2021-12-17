@@ -485,7 +485,7 @@ const Landing = () => {
       <a href="https://earn.egoras.com" className="earn_link" target="_blank">
         <button className="earn_btn">
           <div class="about">
-            <a
+            {/* <a
               class="bg_links social portfolio"
               href="https://www.rafaelalucas.com"
               target="_blank"
@@ -505,8 +505,8 @@ const Landing = () => {
               target="_blank"
             >
               <span class="icon"></span>
-            </a>
-            <a class="bg_links logo"></a>
+            </a> */}
+            {/* <a class="bg_links logo"></a> */}
           </div>
           {/* <!-- end about --> */}
 

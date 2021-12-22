@@ -766,15 +766,21 @@ a.accordion_inner_links {
   }
 }
 @media screen and (max-width: 948px) {
-  .button {
+  .earn_link {
+    right: -160px;
+    animation: button_wid 6s cubic-bezier(0.42, 0, 0, 1.23) infinite;
+    animation-duration: 20s;
+  }
+
+  /* .button {
     width: 10px;
     animation: button_wid 6s ease-in-out infinite;
-  }
+  } */
 
   .button .link {
     /* font-family: "Rubik", sans-serif; */
     background-color: transparent;
-    font-size: 14px;
+    font-size: 16px;
     /* letter-spacing: 2px; */
     color: #ffffff;
     position: relative;
@@ -790,7 +796,7 @@ a.accordion_inner_links {
   }
   @keyframes button_wid {
     100% {
-      width: 220px;
+      right: 0px;
     }
   }
 }
